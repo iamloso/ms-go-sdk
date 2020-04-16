@@ -24,10 +24,10 @@ type SmsConfig struct {
 }
 
 var BaseParams = BaseConfig{
-	AccountsId: "d5fd8f9118b9cd6cf9cfc764d111894e",
-	Token:      "616bee00db429d890ce218ae1555b83c",
-	AppId:      "5ad60d2827a44b23b4c53936143c2353",
-	Uid:        "2d92c6132139467b989d087c84a365d8",
+	AccountsId: "loso",
+	Token:      "loso",
+	AppId:      "loso",
+	Uid:        "loso",
 }
 
 var SmsParams SmsConfig
