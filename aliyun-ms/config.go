@@ -41,8 +41,8 @@ type VmsConfig struct {
 }
 
 var BaseParams = BaseConfig{
-	AccessKeyId:      "LTAIMz4fpJk26Xmg",
-	AccessSecret:     "fs4swygV9gFdoXE0esAOTVuiu9mkvW",
+	AccessKeyId:      "loso",
+	AccessSecret:     "loso",
 	SignatureMethod:  "HMAC-SHA1",
 	SignatureNonce:   fmt.Sprintf("%d", rand.Int63()),
 	SignatureVersion: "1.0",
@@ -51,7 +51,7 @@ var BaseParams = BaseConfig{
 	Action:           "SendSms",
 	Version:          "2017-05-25",
 	RegionId:         "cn-hangzhou",
-	SignName:         "狸米数学",
+	SignName:         "loso",
 }
 
 var SmsParams SmsConfig
